@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+}
+/***************************************************** 
+            Header Section Start Here 
+******************************************************/
+.header-area{
+    background-color:#3b5999;
+    padding: 15px 0;
+}
+.w-20{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+
+/* Form secrion start */
+.w-80{
+    width: 80%;
+    float: left;
+    box-sizing: border-box
+}
+.header-area form {
+    float: right;
+    overflow: hidden;
+    width: 45%;
+}
+.w-44{
+    width: 44%;
+    float: left;
+    box-sizing: border-box
+}
+.w-12{
+    width: 12%;
+    float: left;
+    box-sizing: border-box
+}
+.header-area .fb-logo-area{
+    margin-top: 7px;
+    overflow: hidden;
+}
+.header-area label, 
+.header-area input, 
+.header-area a {
+    display: block;
+} 
+.header-area label{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.header-area input{
+    margin: 7px 0;
+}
+.header-area input[type="password"], .header-area input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+    padding: 2px;
+}
+.header-area .password-area a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.header-area input[type="submit"] {
+    margin-top: 19px;
+    background-color: #4368b1;
+    border: 1px solid #365595;
+    color: white;
+    padding: 5px;
+}
+.header-area .w-44.spacing{
+    padding-right: 15px;
+}
+/*************************************************
+        Maen Area Section Start here
+*************************************************/
+.main-area{
+    background-image: linear-gradient(#fefefe,#dde1ed);
+    padding: 30px 0;
+}
+.w-50{
+    width: 50%;
+    float: left;
+    box-sizing: border-box
+}
+.main-area .facebook-help h3 {
+	color: #0c365e;
+	line-height: 32px;
+	font-family: arial;
+	font-size: 23px;
+}
+.main-area .connect-people img {
+	margin: 20px 0px 0 45px;
+}
+.main-area .ssc-hadding h1 {
+    font-size: 25px;
+    color: #0c365e;
+}
+.main-area .ssc-hadding h5 {
+    margin: 12px 0;
+    font-size: 15px;
+    color: #645555;
+}
+.main-area .reg-form input[type="text"], .main-area .reg-form input[type="email"], .main-area .reg-form input[type="password"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    font-size: 17px;
+    border: 2px solid #e0e5ed;
+    border-radius: 6px;
+    margin-bottom: 7px;
+}
+.main-area .reg-form input[type="text"], .main-area .reg-form input[type="email"], .main-area .reg-form input[type="password"]:focus{
+    outline: none;
+}
+.main-area .reg-form .first-last-name .first-name, 
+.main-area .reg-form .first-last-name .last-name {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.main-area .reg-form .first-last-name .first-name{
+    padding-right: 20px;
+}
+.main-area .birthday-text {
+    font-weight: bold;
+    margin: 20px 0 -3px 0px;
+    color: #717074;
+    font-size: 18px;
+}
+.main-area .birtday-select select{
+    padding: 5px;
+    border: 1px solid #dce0eb;
+    margin-bottom: 10px;
+}
+.main-area .birtday-select a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    color: #717074;
+    margin-left: 10px;
+    position: relative;
+    top: 7px;
+}
+.main-area .gender-section label{
+    font-weight: bold;
+    color: #717074;
+}
+.main-area .reg-form p {
+    font-size: 17px;
+    color: #717074;
+    margin: 10px 0;
+}
+.main-area .reg-form p a {
+    text-decoration: none;
+}
+.main-area .reg-form input[type="submit"] {
+    color: white;
+    background-image: linear-gradient(#77a454, #6d944f );
+    padding: 10px 12px;
+    font-size: 15px;
+    border:1px solid #5c7549 ;
+    border-radius: 6px;
+}
+.main-area .create-page p {
+    margin-top: 20px;
+    color: #717074;
+}
+.main-area .create-page p a {
+    text-decoration: none;
+}
+.main-area .gender-section {
+    margin: 13px 0;
+}
+/******************************************* 
+        Facebook Footer Part Start 
+*********************************************/
+.footer-aria .language ul {
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.footer-aria .language ul li a {
+    color: #8a8d91;
+    display: block;
+    padding: 0 3px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer-aria .language ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-aria .language ul li {
+    display: inline-block;
+    color: #8a8d91;
+    font-weight: 500;
+    font-size: 15px;
+}
+.footer-aria .language ul li a i{
+    background: #f5f6f7;
+    padding: 2px 10px;
+    border: 1px solid #ccd0d5;
+}
+.footer-aria .language ul li a.icon:hover{
+    text-decoration: none;
+}
+.custom-link ul {
+    padding-left: 0;
+    list-style: none;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.custom-link ul li {
+    display: inline-block;
+}
+.custom-link ul li a {
+    color: #8a8d91;
+    display: block;
+    font-size: 13px;
+    padding-right: 23px;
+    text-decoration: none;
+}
+.custom-link ul li a:hover{
+    text-decoration: underline;
+}
+.copy-right {
+    font-size: 11px;
+    color: #8a8d91;
+    padding-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+/* *********************************************************
+                    Responsive CSS                          
+************************************************************/
+@media only screen and (max-width: 768px){
+    .header-area form {
+        width: 70%;
+    }
+    .main-area .connect-people img {
+        margin: 40px 0px 0 0px;
+    }
+    .header-area input[type="submit"] {
+        margin-top: 22px;
+    }
+    .main-area .birthday-text {
+        margin: 13px 0 10px 0px;
+    }
+    .birtday-select {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+@media only screen and (max-width: 414px){
+    .header-area .fb-logo-area {
+        margin-bottom: 10px;
+    }
+    .w-20 {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .w-80 {
+        width: 100%;
+        float: none;
+    }
+    .header-area form {
+        width: 100%;
+    }
+    .w-50 {
+        width: 100%;
+    }
+    .main-area .gender-section label {
+        margin-left: 5px;
+    }
+    .main-area .reg-form .gender-section input[id="male"] {
+        margin-left: 10px;
+    }
+    .custom-link ul {
+        text-align: justify;
+    }
+    .custom-link ul li a {
+        padding-right: 5px;
+    }
+    .copy-right {
+        padding-bottom: 15px;
+        margin-top: 10px;
+    }
+    .header-area {
+        padding: 7px 0;
+    }
+    .main-area .reg-form input[type="submit"] {
+        padding: 9px 7px;
+        font-size: 14px;
+    }
+    .main-area .facebook-help h3 {
+        font-size: 17px;
+    }
+    .main-area {
+        padding: 8px 0;
+    }
+    .connect-people img {
+        margin: 40px 0px 0 0px;
+    }
+}
